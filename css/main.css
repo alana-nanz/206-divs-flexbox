@@ -97,12 +97,13 @@ textarea {
 
 
 html {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(32, 30, 30);
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1em;
   height: 100%;
@@ -112,10 +113,10 @@ body {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2em;
 }
 
 .div-1, .div-2, .div-3 {
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.25em;
   display: flex;
@@ -129,7 +130,35 @@ body {
     padding-right: 1em;
 }
 
+header,
+footer,
+main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
+  }
+
+main p {
+    font-size: 1.35em;
+  }
+
+main span {
+    font-family: 'Lora', sans-serif;
+  }
+
+#email-img {
+    width: 2em;
+}
+
+footer, {
+    padding-top: 2em;
+}
 
 
 /* ==========================================================================
